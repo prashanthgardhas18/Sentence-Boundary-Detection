@@ -1,0 +1,29 @@
+1) A brief description of your own three additional features
+
+* Left side word is a Stopword or not
+* Right side word is a Stopword or not
+* Length of Right side word < 3
+
+2) How complete your program is? 
+
+* Completed
+* Implemented the program in python using pandas, NumPy, NLTK, Sklearn Libraries
+* In the program, get_feature_vectors() function will extract all the 8 features from the data files and storing it in pandas dataframe.
+* Command line arguments: sys.argv[1] holds SBD.train file and sys.argv[2] holds SBD.test file
+* Modelled the decision tree classification on train data using Sklearn library and applied the implemented model to predict the labels for the feature vectors obtained from the examples in SBD.test.
+
+> Accuracy of the System on the test data using all eight features
+
+96.2% Accuracy
+
+
+> Accuracy of the System on the test data using only 5 core features
+
+89.5% Accuracy
+
+
+
+> Accuracy of the System on the test data using 3 additional features
+
+77.5% Accuracy
+
